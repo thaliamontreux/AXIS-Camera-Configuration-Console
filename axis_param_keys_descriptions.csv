@@ -1,0 +1,358 @@
+key,description
+root.Bandwidth.Limit,Global bandwidth cap for device traffic (0=unlimited on this model).
+root.BasicDeviceInfo.BasicDeviceInfo,Expose basic device info in legacy UI/context.
+root.Brand.Brand,Brand string (identity).
+root.Brand.ProdFullName,Full marketing product name (identity).
+root.Brand.ProdNbr,Product short/number (identity).
+root.Brand.ProdShortName,Short model name (identity).
+root.Brand.ProdType,Product type string (identity).
+root.Brand.ProdVariant,Product variant string (identity; often blank).
+root.Brand.WebURL,Vendor URL shown in UI/About.
+root.HTTPS.AllowSSLV3,Deprecated SSLv3 toggle; no effect in this firmware.
+root.HTTPS.AllowTLS1,Allow TLS 1.0 (deprecated; set no to harden).
+root.HTTPS.AllowTLS11,Allow TLS 1.1 (deprecated; set no to harden).
+root.HTTPS.Ciphers,OpenSSL cipher allow‑list string used by HTTPS daemon.
+root.HTTPS.Enabled,Enable/disable HTTPS service.
+root.HTTPS.Port,HTTPS TCP port (default 443).
+root.Image.DateFormat,Date overlay format for UI/streams.
+root.Image.MaxViewers,Max concurrent MJPEG/HTTP viewers (0–3).
+root.Image.NbrOfConfigs,Number of image configuration sets (read‑only).
+root.Image.OverlayPath,Filesystem path to overlay bitmap (ovl).
+root.Image.OwnDateFormat,Custom strftime date format string.
+root.Image.OwnDateFormatEnabled,Use custom date format toggle.
+root.Image.OwnTimeFormat,Custom strftime time format string.
+root.Image.OwnTimeFormatEnabled,Use custom time format toggle.
+root.Image.PrivacyMaskType,Privacy mask engine: none or mask_windows.
+root.Image.Referrers,Comma/space list of allowed HTTP referrers for embedding.
+root.Image.ReferrersEnabled,Enforce HTTP referrers allow‑list.
+root.Image.RFCCompliantMultipartEnabled,Use RFC‑compliant multipart format for MJPEG (compatibility).
+root.Image.TimeFormat,12/24‑hour overlay time format.
+root.Image.TimeResolution,"Overlay timestamp resolution (1=sec,100=centiseconds)."
+root.Image.I0.Name,Display name for view/camera channel 0.
+root.Image.I0.Source,Video source index backing I0 (read‑only).
+root.Image.I0.Appearance.ColorEnabled,Force color (yes) or B/W (no).
+root.Image.I0.Appearance.Compression,"MJPEG compression level (higher = smaller files, lower quality)."
+root.Image.I0.Appearance.MirrorEnabled,Mirror image horizontally.
+root.Image.I0.Appearance.Resolution,Selected output resolution for I0.
+root.Image.I0.Appearance.Rotation,Digital rotation: 0/90/180/270 degrees.
+root.Image.I0.MPEG.Complexity,Encoder effort/complexity (quality vs CPU).
+root.Image.I0.MPEG.ConfigHeaderInterval,Interval for inserting codec headers (SPS/PPS/ VPS).
+root.Image.I0.MPEG.FrameSkipMode,Congestion behavior: drop frames vs send empty timing.
+root.Image.I0.MPEG.ICount,I‑frames per GOP cycle (with PCount defines GOP length).
+root.Image.I0.MPEG.PCount,P‑frames per GOP; larger = longer GOP.
+root.Image.I0.MPEG.UserDataEnabled,Insert user data/SEI in stream.
+root.Image.I0.MPEG.UserDataInterval,How frequently to insert user data.
+root.Image.I0.MPEG.H264.Profile,H.264 profile: baseline/main/high.
+root.Image.I0.MPEG.H264.PSEnabled,Parameter‑set insertion behavior for H.264.
+root.Image.I0.MPEG.H265.PSEnabled,Parameter‑set insertion behavior for H.265.
+root.Image.I0.Overlay.Enabled,Enable overlay plane (bitmap/text).
+root.Image.I0.Overlay.XPos,Overlay X position (pixels).
+root.Image.I0.Overlay.YPos,Overlay Y position (pixels).
+root.Image.I0.Overlay.MaskWindows.Color,Privacy mask fill color.
+root.Image.I0.RateControl.MaxBitrate,Max video bitrate cap (kbps; 0=no cap).
+root.Image.I0.RateControl.Mode,Rate control mode: VBR or CBR.
+root.Image.I0.RateControl.Priority,Constraint priority: quality/framerate/none.
+root.Image.I0.RateControl.TargetBitrate,Target video bitrate (kbps).
+root.Image.I0.SizeControl.MaxFrameSize,Max frame size limiter (kB).
+root.Image.I0.Stream.Duration,Limit stream duration (seconds; 0=unlimited).
+root.Image.I0.Stream.FPS,Frame rate cap for stream (0–30).
+root.Image.I0.Stream.NbrOfFrames,Send exactly N frames then stop (0=unlimited).
+root.Image.I0.Text.BGColor,Text overlay background style (white/black/transparent/semitransparent).
+root.Image.I0.Text.ClockEnabled,Show clock overlay.
+root.Image.I0.Text.Color,Text overlay color.
+root.Image.I0.Text.DateEnabled,Show date overlay.
+root.Image.I0.Text.Position,Text overlay position (top/bottom).
+root.Image.I0.Text.String,Custom free‑text overlay string.
+root.Image.I0.Text.TextEnabled,Enable text overlay.
+root.Image.I0.Text.TextSize,Text size: small/medium/large.
+root.ImageSource.NbrOfSources,Number of image sources (read‑only).
+root.ImageSource.I0.CaptureFrequency,Anti‑flicker mains frequency (50/60 Hz).
+root.ImageSource.I0.Name,Source name label.
+root.ImageSource.I0.DayNight.IrCutFilter,IR‑cut filter mode: auto/on/off.
+root.ImageSource.I0.DayNight.ShiftLevel,Sensitivity for auto day/night switching (0–100).
+root.ImageSource.I0.Sensor.AspectRatio,Physical aspect ratio (read‑only).
+root.ImageSource.I0.Sensor.Brightness,Brightness (0–100).
+root.ImageSource.I0.Sensor.CaptureMode,Sensor mode / resolution set (model‑specific).
+root.ImageSource.I0.Sensor.ColorLevel,Color saturation/level (0–100).
+root.ImageSource.I0.Sensor.Contrast,Contrast (0–100).
+root.ImageSource.I0.Sensor.Exposure,Exposure program (auto/flickerfree/flickerreduced/hold).
+root.ImageSource.I0.Sensor.Sharpness,Sharpness (0–100).
+root.ImageSource.I0.Sensor.WhiteBalance,White balance: auto/hold/fixed presets.
+root.Input.NbrOfInputs,Number of physical inputs (read‑only).
+root.Layout.AMCRecordMedia,Legacy AMC record media availability (read‑only).
+root.Layout.Axis,Show Axis UI elements toggle.
+root.Layout.DefaultStreamProfile,Default stream profile name for UI/links.
+root.Layout.DefaultVideoFormat,"Default codec choice in UI (e.g., h264)."
+root.Layout.EnableBasicSetup,Show basic setup in UI.
+root.Layout.H264InstallationEnabled,Expose H.264 install helper in UI.
+root.Layout.InstantReplayEnabled,Enable instant replay button in UI.
+root.Layout.InstantReplayTimeOffset,Replay offset (seconds).
+root.Layout.IRIlluminationEnabled,Expose IR LED control in UI.
+root.Layout.ManualIRIlluminationOverride,IR override enforced by model (read‑only).
+root.Layout.OwnHomePageEnabled,Use custom homepage file toggle.
+root.Layout.OwnHomePagePath,Path to custom homepage resource.
+root.Layout.PlainConfigEnabled,Allow plain config page.
+root.Layout.SetupLinkEnabled,Show setup link in UI.
+root.Layout.ShowAMCToolbar,Show AMC toolbar.
+root.Layout.ShowSceneProfileSelector,Show scene profile selector.
+root.Layout.ShowVideoFormatDropDown,Show codec dropdown in UI.
+root.Layout.SnapshotEnabled,Enable snapshot button.
+root.Layout.ViewerIE,Default viewer for IE (legacy).
+root.Layout.ViewerOther,Default viewer for other browsers (legacy).
+root.Layout.CustomLink.C0.Enabled,Enable custom link 1.
+root.Layout.CustomLink.C0.Name,Caption for custom link 1.
+root.Layout.CustomLink.C0.URL,URL for custom link 1.
+root.Layout.CustomLink.C0.Usage,Target type: cgi or web.
+root.Layout.CustomLink.C1.*,Same as C0 for link 2.
+root.Layout.CustomLink.C2.*,Same as C0 for link 3.
+root.Layout.CustomLink.C3.*,Same as C0 for link 4.
+root.Layout.Trigger.T0.Enabled,Enable built‑in manual trigger button.
+root.Network.BootProto,IP boot protocol: dhcp or none (static).
+root.Network.Broadcast,IPv4 broadcast address.
+root.Network.DefaultRouter,Default IPv4 gateway.
+root.Network.DNSServer1,Primary DNS server.
+root.Network.DNSServer2,Secondary DNS server.
+root.Network.DomainName,Local domain name.
+root.Network.Enabled,IPv4 stack enabled.
+root.Network.HostName,Device hostname.
+root.Network.IPAddress,Static IPv4 address (if not DHCP).
+root.Network.Media,Ethernet speed/duplex selection.
+root.Network.SubnetMask,IPv4 subnet mask.
+root.Network.tcpECN,Explicit Congestion Notification enable (0/1).
+root.Network.AxisNS.CheckIPAddress,AxisNS health‑check IP (internal).
+root.Network.AxisNS.CheckPeriod,AxisNS check interval seconds.
+root.Network.AxisNS.CheckTTL,AxisNS TTL setting (internal).
+root.Network.AxisNS.Enabled,Enable Axis Network Services registration.
+root.Network.AxisNS.LockButton,Lock service button behavior.
+root.Network.AxisNS.ServerLink,AxisNS server base (internal).
+root.Network.AxisNS.ServerList,AxisNS server list (internal).
+root.Network.AxisNS.ServerPath,AxisNS server path (internal).
+root.Network.AxisNS.UpdatePeriod,AxisNS update/check periodicity.
+root.Network.Bonjour.Enabled,mDNS/Bonjour advertisement on/off.
+root.Network.Bonjour.FriendlyName,Bonjour friendly name.
+root.Network.DHCP.Fqdn,Client FQDN to offer to DHCP server.
+root.Network.DHCP.IPCheckEnabled,Validate offered IP before accepting.
+root.Network.DHCP.Retries,DHCP retries.
+root.Network.DHCP.StoreIPAddresseth0,Persist received IP on eth0.
+root.Network.DHCP.Timeout,DHCP timeout (seconds).
+root.Network.DHCP.VendorClass,DHCP Vendor‑Class identifier string.
+root.Network.DNSUpdate.DNSName,DDNS name to update.
+root.Network.DNSUpdate.Enabled,Enable RFC DNS UPDATE client.
+root.Network.DNSUpdate.TTL,TTL for DDNS records.
+root.Network.eth0.Broadcast,Current broadcast address (read‑only).
+root.Network.eth0.IPAddress,Current IPv4 address (read‑only).
+root.Network.eth0.MACAddress,Interface MAC address (read‑only).
+root.Network.eth0.SubnetMask,Current subnet mask (read‑only).
+root.Network.eth0.IPv6.IPAddresses,Current IPv6 addresses (read‑only).
+root.Network.Filter.Enabled,Enable IP access filter (ACL).
+root.Network.Filter.Input.AcceptAddresses,Allowed/blocked IP address list.
+root.Network.Filter.Input.Policy,Default ACL policy: allow/deny.
+root.Network.Filter.Log.Enabled,Log ACL hits.
+root.Network.HTTP.AuthenticationPolicy,HTTP auth policy: basic/digest/both.
+root.Network.HTTP.AuthenticationPolicySet,Flag indicating policy was set.
+root.Network.HTTP.AuthenticationWithQop,Enable qop for HTTP digest.
+root.Network.Interface.I0.SystemDevice,"OS device name (e.g., eth0) (read‑only)."
+root.Network.Interface.I0.dot1x.EAPOLVersion,EAPOL version 1/2.
+root.Network.Interface.I0.dot1x.Enabled,Enable 802.1X supplicant.
+root.Network.Interface.I0.dot1x.Status,802.1X current status (read‑only).
+root.Network.Interface.I0.dot1x.EAPTLS.Identity,802.1X EAP‑TLS identity string.
+root.Network.Interface.I0.dot1x.EAPTLS.PrivateKeyPassword,Password for private key (write‑only).
+root.Network.Interface.I0.Link.MTU,Interface MTU (68–1500).
+root.Network.IPv6.AcceptRA,Accept IPv6 router advertisements.
+root.Network.IPv6.DefaultRouter,Static/default IPv6 router(s).
+root.Network.IPv6.DHCPv6,IPv6 DHCP mode: auto/stateful/stateless/off.
+root.Network.IPv6.Enabled,Enable IPv6 stack.
+root.Network.IPv6.IPAddress,Static IPv6 addresses list.
+root.Network.QoS.Class1.Desc,Label for Class1 (read‑only).
+root.Network.QoS.Class1.DSCP,DSCP value for Class1 traffic.
+root.Network.QoS.Class2.Desc,Label for Class2 (read‑only).
+root.Network.QoS.Class2.DSCP,DSCP value for Class2 traffic.
+root.Network.QoS.Class3.Desc,Label for Class3 (read‑only).
+root.Network.QoS.Class3.DSCP,DSCP value for Class3 traffic.
+root.Network.QoS.Class4.Desc,Label for Class4 (read‑only).
+root.Network.QoS.Class4.DSCP,DSCP value for Class4 traffic.
+root.Network.QoS.Class5.Desc,Label for Class5 (read‑only).
+root.Network.QoS.Class5.DSCP,DSCP value for Class5 traffic.
+root.Network.Resolver.NameServer1,Effective DNS #1 (read‑only).
+root.Network.Resolver.NameServer2,Effective DNS #2 (read‑only).
+root.Network.Resolver.NameServerList,Effective DNS list (read‑only).
+root.Network.Resolver.ObtainFromDHCP,Obtain DNS from DHCP (yes/no).
+root.Network.Resolver.Search,Search domains (read‑only).
+root.Network.Routing.DefaultRouter,Effective IPv4 default router (read‑only).
+root.Network.Routing.IPv6.DefaultRouter,Effective IPv6 gateways (read‑only).
+root.Network.RTP.EndPort,RTP UDP end of port range.
+root.Network.RTP.InternallyTaggedMulticastEnabled,Enable internal tagging for multicast.
+root.Network.RTP.MetadataDSCP,DSCP for RTP metadata.
+root.Network.RTP.NbrOfRTPGroups,Number of RTP groups (read‑only).
+root.Network.RTP.StartPort,RTP UDP start of port range.
+root.Network.RTP.VideoDSCP,DSCP for RTP video.
+root.Network.RTP.R0.AlwaysMulticastProfile,Stream profile for Always Multicast sender.
+root.Network.RTP.R0.AlwaysMulticastVideo,Enable Always Multicast sender.
+root.Network.RTP.R0.TTL,Multicast TTL.
+root.Network.RTP.R0.VideoAddress,Multicast destination address/hostname.
+root.Network.RTP.R0.VideoPort,Multicast UDP port (0 or 1024–65534).
+root.Network.RTSP.AllowClientTransportSettings,Let RTSP client pick transport (UDP/TCP).
+root.Network.RTSP.AuthenticateOverHTTP,Legacy/no effect switch.
+root.Network.RTSP.AuthenticateRTSPOverHTTP,Require auth for RTSP tunneled over HTTP.
+root.Network.RTSP.Enabled,Enable RTSP service.
+root.Network.RTSP.Port,RTSP TCP port (554 or high port).
+root.Network.RTSP.ProtViewer,Viewer role: anonymous/password (auth policy).
+root.Network.RTSP.Timeout,RTSP session timeout (seconds).
+root.Network.UPnP.Enabled,Enable UPnP advertisement.
+root.Network.UPnP.FriendlyName,UPnP friendly name.
+root.Network.UPnP.NATTraversal.Active,Status of UPnP IGD mapping (read‑only).
+root.Network.UPnP.NATTraversal.Enabled,Try to map ports on the router via UPnP.
+root.Network.UPnP.NATTraversal.ExternalIPAddress,Detected public IP address.
+root.Network.UPnP.NATTraversal.MaxPort,Max external port for mapping.
+root.Network.UPnP.NATTraversal.MinPort,Min external port for mapping.
+root.Network.UPnP.NATTraversal.Router,Router/IGD address.
+root.Network.VolatileHostName.HostName,Current hostname (read‑only).
+root.Network.VolatileHostName.ObtainFromDHCP,Allow DHCP to set hostname.
+root.Network.ZeroConf.Enabled,Enable IPv4 link‑local addressing.
+root.Network.ZeroConf.IPAddress,Current link‑local address (read‑only).
+root.Network.ZeroConf.SubnetMask,Current link‑local mask (read‑only).
+root.NetworkLED.Usage,Network LED behavior (on/off).
+root.Output.NbrOfOutputs,Number of physical outputs (read‑only).
+root.PowerLED.Usage,Power LED behavior (on/off).
+root.Properties.AlwaysMulticast.AlwaysMulticast,Supports Always Multicast (capability).
+root.Properties.API.Browser.Language,Supported languages available (capability).
+root.Properties.API.Browser.RootPwdSetValue,Admin password set state (capability flag).
+root.Properties.API.Browser.UserGroup,Logged in user info available (capability).
+root.Properties.API.ClientNotes.ClientNotes,Browser client notes key:value store capability.
+root.Properties.API.HTTP.AdminPath,HTTP admin root path (capability/info).
+root.Properties.API.HTTP.Version,HTTP API version (capability/info).
+root.Properties.API.Metadata.Metadata,Metadata API present (capability).
+root.Properties.API.Metadata.Version,Metadata API version (capability/info).
+root.Properties.API.OnScreenControls.OnScreenControls,On‑screen controls available (capability).
+root.Properties.API.RTSP.RTSPAuth,RTSP auth supported (capability).
+root.Properties.API.RTSP.Version,RTSP stack version (capability/info).
+root.Properties.API.WebService.EntryService,WebService entry present (capability).
+root.Properties.API.WebService.WebService,WebService available (capability).
+root.Properties.API.WebService.ONVIF.ONVIF,ONVIF available (capability).
+root.Properties.API.WebSocket.RTSP.RTSP,RTSP over WebSocket supported (capability).
+root.Properties.ApiDiscovery.ApiDiscovery,API discovery available.
+root.Properties.EmbeddedDevelopment.CacheSize,ACAP cache size (capability/info).
+root.Properties.EmbeddedDevelopment.DefaultCacheSize,Default ACAP cache size (info).
+root.Properties.EmbeddedDevelopment.EmbeddedDevelopment,ACAP platform available (capability).
+root.Properties.EmbeddedDevelopment.Version,ACAP version string (info).
+root.Properties.EmbeddedDevelopment.RuleEngine.MultiConfiguration,Multiple rule configs supported (capability).
+root.Properties.Firmware.BuildDate,Firmware build date.
+root.Properties.Firmware.BuildNumber,Firmware build number.
+root.Properties.Firmware.Version,Firmware/AXIS OS version.
+root.Properties.FirmwareManagement.Version,Firmware management API version.
+root.Properties.HTTPS.HTTPS,HTTPS capability present (capability).
+root.Properties.Image.Format,Supported stream formats (list).
+root.Properties.Image.NbrOfViews,Number of view areas supported (info).
+root.Properties.Image.Resolution,Supported resolutions (list; choose via Image.I#).
+root.Properties.Image.Rotation,Supported rotations (list).
+root.Properties.Image.ShowSuboptimalResolutions,Show borderline modes in UI (dev).
+root.Properties.Image.H264.Profiles,Supported H.264 profiles.
+root.Properties.Image.H265.Profiles,Supported H.265 profiles.
+root.Properties.ImageSource.DayNight,Day/Night capability present.
+root.Properties.IO.ManualTriggerNbr,Number of manual triggers available.
+root.Properties.LEDControl.LEDControl,LED control capability present.
+root.Properties.LightControl.LightControlAvailable,IR light control capability present.
+root.Properties.Motion.MaxNbrOfWindows,Max motion windows supported.
+root.Properties.Motion.Motion,Motion feature available (capability).
+root.Properties.Motion.VMDLite,VMD Lite motion available (capability).
+root.Properties.PackageManager.FormatListing,ACAP format listing supported.
+root.Properties.PackageManager.LicenseKeyManagement,License key mgmt supported.
+root.Properties.PackageManager.PackageManager,ACAP package manager present.
+root.Properties.PrivacyMask.MaxNbrOfPrivacyMasks,Max privacy masks supported.
+root.Properties.PrivacyMask.Polygon,Polygon mask capability present.
+root.Properties.PrivacyMask.PrivacyMask,Privacy mask feature present.
+root.Properties.PrivacyMask.Query,Supported privacy mask query modes.
+root.Properties.RemoteService.RemoteService,Remote service capability present.
+root.Properties.RTC.RTC,Real‑time clock present (capability).
+root.Properties.Serial.Serial,Serial interface present (capability).
+root.Properties.System.Architecture,CPU architecture string.
+root.Properties.System.AxisLimitedAccess,Axis limited access mode (capability).
+root.Properties.System.HardwareID,Hardware ID string.
+root.Properties.System.Language,Languages available (read‑only list).
+root.Properties.System.LanguageType,Language type (read‑only).
+root.Properties.System.SerialNumber,Device serial number.
+root.Properties.System.Soc,System‑on‑chip model string.
+root.Properties.TemperatureSensor.Fan,Fan present (capability).
+root.Properties.TemperatureSensor.Heater,Heater present (capability).
+root.Properties.TemperatureSensor.TemperatureControl,Temperature control present.
+root.Properties.TemperatureSensor.TemperatureSensor,Temperature sensor present.
+root.Properties.VirtualInput.VirtualInput,Virtual input feature present.
+root.PTZ.BoaProtPTZOperator,Allow anonymous PTZ operator (anonymous/password).
+root.Recording.DefaultDiskId,Preferred disk/volume id for recordings.
+root.Recording.DefaultSplitDuration,Recording chunk duration (constant/setting).
+root.RemoteService.ClientCert,Client certificate for remote service TLS.
+root.RemoteService.DSCP,DSCP value for remote service traffic.
+root.RemoteService.Enabled,Remote service state: oneclick/yes/no.
+root.RemoteService.LogFile,"Remote service logging target (e.g., syslog)."
+root.RemoteService.ProxyAuth,Proxy authentication method (basic/digest/auto).
+root.RemoteService.ProxyLogin,Proxy username.
+root.RemoteService.ProxyPassword,Proxy password (handle securely).
+root.RemoteService.ProxyPort,Proxy server port.
+root.RemoteService.ProxyServer,Proxy server hostname/IP.
+root.RemoteService.ServerList,List of dispatcher endpoints used.
+root.SNMP.DSCP,DSCP for SNMP traffic.
+root.SNMP.Enabled,Enable SNMP agent.
+root.SNMP.EngineBoots,SNMPv3 boots counter.
+root.SNMP.InitialUserPasswd,Bootstrap v3 user password (write‑only/internal).
+root.SNMP.InitialUserPasswdSet,Flag indicating bootstrap password set.
+root.SNMP.V1,Enable SNMP v1.
+root.SNMP.V1ReadCommunity,SNMP read community string.
+root.SNMP.V1WriteCommunity,SNMP write community string.
+root.SNMP.V2c,Enable SNMP v2c.
+root.SNMP.V3,Enable SNMP v3.
+root.SNMP.Trap.Enabled,Enable SNMP traps.
+root.SNMP.Trap.T0.Address,Trap destination address/host.
+root.SNMP.Trap.T0.Community,Trap community string.
+root.SNMP.Trap.T0.AuthFail.Enabled,Send authFailure trap.
+root.SNMP.Trap.T0.ColdStart.Enabled,Send coldStart trap.
+root.SNMP.Trap.T0.LinkUp.Enabled,Send linkUp trap.
+root.SNMP.Trap.T0.WarmStart.Enabled,Send warmStart trap.
+root.SOCKS.Enabled,Enable SOCKS proxy for outbound connections.
+root.SOCKS.LocalNetworks,Bypass list of local networks.
+root.SOCKS.Password,SOCKS proxy password (write‑only).
+root.SOCKS.Server,SOCKS proxy server host.
+root.SOCKS.ServerPort,SOCKS server port.
+root.SOCKS.ServerType,SOCKS version 4 or 5.
+root.SOCKS.UserName,SOCKS proxy username.
+root.StatusLED.FlashInterval,LED flash interval seconds.
+root.StatusLED.Usage,Status LED mode: on/off/flash.
+root.StreamCache.MaxGroups,Max concurrent cache groups (read‑only).
+root.StreamCache.Size,Total cache size (bytes).
+root.StreamCache.S0.Enabled,Enable cache group S0 (timeshift).
+root.StreamCache.S0.Options,Extra cache options string.
+root.StreamCache.S0.RequestedLengthTime,Requested timeshift length (seconds).
+root.StreamProfile.MaxGroups,Max stream profiles supported (read‑only).
+root.System.AccessLog,HTTP access logging on/off.
+root.System.AlternateBoaPort,Alternate HTTP port (0=disabled).
+root.System.BoaDSCP,DSCP for HTTP server traffic.
+root.System.BoaKeepAliveTimeout,HTTP keep‑alive timeout seconds.
+root.System.BoaPort,Primary HTTP port.
+root.System.BoaProtViewer,Viewer role auth policy (anonymous/password).
+root.System.CaptureFrequencySet,User changed capture frequency flag.
+root.System.CaptureModeSet,User changed capture mode flag.
+root.System.HTTPAuthRTSPOverHTTP,Require HTTP auth for RTSP‑over‑HTTP.
+root.System.HTTPWatchDog,Auto‑restart HTTP server if hung.
+root.System.RootPwdSet,Administrator password set flag.
+root.System.SkipDigestUriValidation,Bypass strict Digest URI validation for matching User‑Agent.
+root.System.BoaGroupPolicy.admin,Admin allowed schemes: http/https/both.
+root.System.BoaGroupPolicy.operator,Operator allowed schemes.
+root.System.BoaGroupPolicy.viewer,Viewer allowed schemes.
+root.System.EmbeddedDevelopment.VaconfigFilter,ACAP VAPIX configuration filter string.
+root.System.PreventDoSAttack.ActivatePasswordThrottling,Throttle repeated login failures.
+root.System.PreventDoSAttack.DoSBlockingPeriod,Block duration for DoS (sec).
+root.System.PreventDoSAttack.DoSPageCount,Page request rate threshold (req/sec).
+root.System.PreventDoSAttack.DoSPageInterval,Measurement interval for page rate (sec).
+root.System.PreventDoSAttack.DoSSiteCount,Site request rate threshold (req/sec).
+root.System.PreventDoSAttack.DoSSiteInterval,Measurement interval for site rate (sec).
+root.TemperatureControl.Sensor.S0.Name,"Temperature‑controlled device label (e.g., IR LED)."
+root.TemperatureControl.Sensor.S0.TriggerHigh,Upper threshold to trigger control action.
+root.TemperatureControl.Sensor.S0.TriggerLow,Lower threshold to trigger control action.
+root.Time.ObtainFromDHCP,Accept time/NTP options from DHCP.
+root.Time.POSIXTimeZone,POSIX timezone rule string (incl. DST rules).
+root.Time.ServerDate,Manual date value (used if SyncSource=PC/None).
+root.Time.ServerTime,Manual time value (used if SyncSource=PC/None).
+root.Time.SyncSource,Time sync source: None/NTP/PC.
+root.Time.DST.Enabled,Legacy DST flag (redundant with POSIX rules).
+root.Time.NTP.Server,NTP server hostname/IP.
+root.Time.NTP.VolatileServer,NTP learned via DHCP (read‑only).
+root.WebService.UsernameToken.ReplayAttackProtection,WS‑Security nonce/timestamp enforcement.
