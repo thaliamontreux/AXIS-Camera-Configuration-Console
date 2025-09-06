@@ -1,0 +1,4 @@
+requests>=2.32.0
+lxml>=5.2.0
+# Optional if you wish to build your own EXE
+# pyinstaller>=6.3.0
