@@ -40,3 +40,12 @@ pip install -r requirements.txt
 
 # 3) Run
 python ParamPilot.py
+
+## 𝗠𝗼𝗿𝗲 𝗶𝗻𝗳𝗼𝗿𝗺𝗮𝘁𝗶𝗼𝗻 𝗼𝗻 𝗔𝘅𝗶𝘀 𝗖𝗼𝗺𝗽𝗮𝗻𝗶𝗼𝗻 𝗖𝗮𝗺𝗲𝗿𝗮𝘀!  #################################################################
+## For accessing it's RTSP Stream in 1080P you must include Axis-Orig-Sw=true to the end of the url.            #
+##                                                                                                              #
+## Capture a Still               Image: http://192.168.5.40/axis-cgi/mjpg/video.cgi?Axis-Orig-Sw=true           #
+## Watch Live Video:             http://<camera url>/axis-cgi/mjpg/video.cgi?Axis-Orig-Sw=true                  #
+## Connect to the RTSP Stream:   rtsp://<camera url>/axis-media/media.amp?Axis-Orig-Sw=true                     #
+##                                                                                                              #
+#################################################################################################################
