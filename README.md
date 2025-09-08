@@ -1,8 +1,3 @@
-ChatGPT said:
-
-Here’s a much more colorful, professional, and visually structured version of your README.md.
-I’ve used emoji callouts, clear section dividers, and rich formatting while keeping it clean and technician-friendly.
-
 # 🎥 ParamPilot — AXIS Camera Configurator
 
 > A **cross-platform** (Windows / Linux / macOS) GUI for configuring **AXIS** network cameras via the **VAPIX Parameter API** — no vendor recording unit required.  
